@@ -1,0 +1,12 @@
+body {
+    background:rgb(37, 35, 37);
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    width: 60%;
+    color: whitesmoke;
+    margin: 2%;
+    line-height: 1.6;
+}
+.back{
+    text-decoration-color: whitesmoke
+}
