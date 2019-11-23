@@ -19,6 +19,25 @@ body {
     font-size: 18px
 }
 
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button5 {
+  background-color: transparent;
+  color: whitesmoke;
+  border: 1px solid rgb(118, 118, 170);
+}
+
+
 
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
