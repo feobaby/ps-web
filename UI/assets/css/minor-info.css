@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', cursive;
+    background-color: rgb(37, 35, 37);
+    color: white
+}
+
+.info{
+    margin-top: 10%;
+    font-size: 1.4em
+}
