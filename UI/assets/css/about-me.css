@@ -5,6 +5,12 @@ body {
     width: 60%
 }
 
+.find {
+  text-decoration-line: underline;
+  color: rgb(118, 118, 170);;
+}
+
+
 .grid {
     margin-left: 45%;
     width: 80%
