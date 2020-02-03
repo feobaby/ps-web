@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', serif;
     font-size: 35px;
     text-align: center;
     background-color: rgb(37, 35, 37);
@@ -23,7 +23,7 @@ color: rgb(118, 118, 170);
 }
 
 .the-links {
-margin-top: 10%;
+margin-top: 7%;
 }
 
 .find {
@@ -103,3 +103,6 @@ margin-top: 10%;
                 margin-top: 10%;
         }
       }      
+
+  /*--------------------------------------------------------*/
+      
