@@ -6,6 +6,7 @@ body {
     line-height: 0.50em;
    }
 
+
    .hello{
      text-align: left;
    }
@@ -22,9 +23,9 @@ color: rgb(118, 118, 170);
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
-.the-links {
-margin-top: 13%;
-}
+/* .the-links {
+margin-top: 10%;
+} */
 
 .find {
     font-size: 20px;
@@ -101,9 +102,6 @@ margin-top: 13%;
         }
         .find {
                 font-size: 0.6em;
-        }
-        .the-links {
-                margin-top: 30%;
         }
       }      
 
