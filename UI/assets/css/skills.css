@@ -10,6 +10,12 @@ body {
   margin-top: 7%;
 }
 
+.title{
+  font-size: 2em;
+}
+.title1{
+  font-size: 1em;
+}
 
 
 .text-focus-in {
@@ -61,16 +67,20 @@ body {
 	        animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .text-focus-in12 {
-	-webkit-animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: text-focus-in 13s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 13s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .text-focus-in13 {
-	-webkit-animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: text-focus-in 14s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 14s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .text-focus-in14 {
-	-webkit-animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 12s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: text-focus-in 15s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 15s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+.text-focus-in15 {
+	-webkit-animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 16s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 /* ----------------------------------------------
