@@ -1,21 +1,21 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', serif;
-    font-size: 35px;
-    text-align: center;
+    font-family: 'Quicksand', sans-serif;
     background-color: rgb(37, 35, 37);
     color: white;
+    line-height: 0.50em;
    }
 
+   .hello{
+     text-align: left;
+   }
 .name {
-     font-size: 2em;
+     font-size: 100px;
    }
 
 .bold-name {
 color: rgb(118, 118, 170);
 }
-
-
 
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -23,7 +23,7 @@ color: rgb(118, 118, 170);
 }
 
 .the-links {
-margin-top: 7%;
+margin-top: 13%;
 }
 
 .find {

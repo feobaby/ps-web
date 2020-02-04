@@ -7,15 +7,31 @@
     margin: 2%;
     background-color: rgb(37, 35, 37);
   }
-  
-
-.descrip {
-    color: white;
-}  
-
-.cert {
-    color: whitesmoke
+ 
+.head-title{
+  color: rgb(118, 118, 170);
+  font-size: 1.5em;
+  text-align: center;
 } 
+
+.title{
+  color: rgb(118, 118, 170);
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.title1{
+  color: white;
+  font-size: 15px;
+}
+
+.notice {
+  font-size: 14px;
+}
+
+hr{
+  width: 50px;
+}
   /* Float four columns side by side */
   .column {
     float: left;
@@ -47,10 +63,18 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
-    border: 1px dotted black
+    background-color: transparent;
+    border: 1px solid white
   }
-
+ /* Style the counter cards */
+ .card1 {
+  padding: 16px;
+  text-align: left;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  line-height: 1em;
+}
 
 
 .scale-in-hor-left {
@@ -155,3 +179,22 @@
     }
   }
    
+
+  
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button5 {
+  background-color: transparent;
+  color: whitesmoke;
+  border: 1px solid rgb(118, 118, 170);
+}
