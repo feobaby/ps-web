@@ -4,15 +4,16 @@ body {
     background-color: rgb(37, 35, 37);
     color: white;
     line-height: 0.50em;
+    height: 100%;
    }
 
 
-   .hello{
-     text-align: left;
-   }
 .name {
      font-size: 100px;
    }
+   .fname {
+    font-size: 100px;
+  }
 
 .bold-name {
 color: rgb(118, 118, 170);
@@ -94,12 +95,12 @@ margin-top: 10%;
 
   /* Responsive columns */
   @media screen and (max-width: 600px) {
-    body{
-      margin-top: 50%;
-    }
-        .name {
-                font-size: 2em;
+        .name{
+                font-size: 4.5em;
         }
+        .fname{
+          font-size: 1.8em;
+  }
         .find {
                 font-size: 0.6em;
         }
