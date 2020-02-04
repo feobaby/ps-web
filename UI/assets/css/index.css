@@ -93,14 +93,17 @@ margin-top: 13%;
 
   /* Responsive columns */
   @media screen and (max-width: 600px) {
+    body{
+      margin-top: 50%;
+    }
         .name {
-                font-size: 1em;
+                font-size: 2em;
         }
         .find {
                 font-size: 0.6em;
         }
         .the-links {
-                margin-top: 10%;
+                margin-top: 30%;
         }
       }      
 
