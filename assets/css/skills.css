@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
   margin: 2%;
   background-color: rgb(37, 35, 37);
   color: white;
