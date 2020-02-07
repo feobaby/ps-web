@@ -29,7 +29,7 @@ margin-top: 10%;
 } */
 
 .find {
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .button {
@@ -92,7 +92,7 @@ margin-top: 10%;
 
 
   /* Responsive columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
         .name{
                 font-size: 4.5em;
         }
@@ -101,8 +101,9 @@ margin-top: 10%;
   }
         .find {
                 font-size: 0.6em;
+                margin-top: 30%;
         }
       }      
 
-  /*--------------------------------------------------------*/
+
       
