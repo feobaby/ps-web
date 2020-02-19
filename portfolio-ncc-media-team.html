@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Funmilayo Olaiya - Software Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "./assets/css//portfolio.css" />
+  <link rel = "stylesheet" href = "./assets/css//nav.css" />
+  <link rel="icon" type="image/ico" href="assets//images/logos/my-pic.jpeg" />
+  <script src="./assets/js/nav.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  
+  
+</head>
+<body>
+        <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="./index">Home.</a>
+                  <a href="./about-me">About Me.</a>
+                  <a href="./skills">Skills.</a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD1pugVOK31ZfERBFIJUnM5gp5XlBunDYb4E-xWBvOX5hVMQ/viewform?usp=sf_link" target="_blank">Contact Me.</a>
+
+                </div>
+              </div>
+              
+              <br>
+        <span class= "menu" style="font-size:40px;cursor:pointer"
+         onclick="openNav()">&#9776;</span>
+      <br>
+     
+      <p class="head-title">NCC Media Team[back-end,front-end].
+      </p>
+      <hr>
+      <br>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade" align="center">
+                  <img src="./assets/images/pic27.png" width="50%">
+                </div>
+                
+              </div>
+              <br>
+              <p class="text1">About this project:</p>
+              <hr class="line2">
+              <p class="text3">Key Note: This is a private project, but I'm offering to make <br>
+                it public for the main time to be used as a resource.<br>
+                The back-end is ready but the front-end is still under development. :)</p>
+              <p class="text2">A web app. to gather all information to be used 
+                  for church services so as to make access to 
+                  resources<br> easier for the media team members.</p>
+              <p class="text2">Technologies used:</p> 
+              <hr class="line2">
+              <ul class="text2">
+               <li>React/Redux</li>
+               <li>Node.js</li>
+               <li>Express.js/Sequelize ORM</li>
+               <li>Postgres</li>
+               <li>Heroku</li>
+               <li>Netlify</li>
+               <li>Pivotal tracker</li>
+               <li>Travis CI</li>
+               <li>Git</li>
+               <li>Apiary/API Blueprint</li>
+               <li>Html/Css3/Scss/Ant design</li>
+               </ul>
+               <p class="text2">Resources:</p> 
+               <hr class="line2">
+               <div class="column scale-in-hor-right">
+                  <div class="card1">
+                 <a href= "https://github.com/funmi5/ncc-media-team-backend" target="_blank"> <button class="button button5">View back-end</button></a><br>
+                 <button class="button button5">View front-end</button>
+                </div>
+                </div>
+                <footer class="copyy" align="center"><font size="1px">Copyright Funmilayo Olaiya 2020 <sup>&copy;</sup></footer>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+  </body>
+  </html>
