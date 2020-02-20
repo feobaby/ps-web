@@ -19,6 +19,10 @@ body {
 color: rgb(118, 118, 170);
 }
 
+.little-post{
+  font-size: 1em;
+}
+
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -29,7 +33,7 @@ margin-top: 10%;
 } */
 
 .find {
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
 .button {
@@ -106,4 +110,4 @@ margin-top: 10%;
       }      
 
 
-      
+s      
