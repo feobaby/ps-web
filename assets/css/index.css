@@ -41,7 +41,7 @@ margin-top: 10%;
 } */
 
 .find {
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .button {
@@ -113,7 +113,10 @@ margin-top: 10%;
   }
         .find {
                 font-size: 0.6em;
-                margin-top: 30%;
+                margin-top: 10%;
+        }
+        .little-post {
+          font-size: 0.7em;
         }
       }      
 
