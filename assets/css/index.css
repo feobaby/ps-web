@@ -12,11 +12,23 @@ body {
      font-size: 100px;
    }
    .fname {
-    font-size: 100px;
+    font-size: 90px;
   }
 
 .bold-name {
-color: rgb(118, 118, 170);
+color: #666633;
+}
+
+.network{
+  text-decoration-color: white;
+  color: #666633;
+}
+
+.little-post{
+  font-size: 1em;
+  line-height: 1;
+  text-align: left;
+  margin-left: 3%;
 }
 
 .text-focus-in {
@@ -29,7 +41,7 @@ margin-top: 10%;
 } */
 
 .find {
-    margin-top: 8%;
+    margin-top: -10%;
 }
 
 .button {
@@ -47,7 +59,7 @@ margin-top: 10%;
   .button5 {
     background-color: transparent;
     color: whitesmoke;
-    border: 1px solid rgb(118, 118, 170);
+    border: 1px solid #666633;
   }
 
 
@@ -101,9 +113,10 @@ margin-top: 10%;
   }
         .find {
                 font-size: 0.6em;
-                margin-top: 30%;
+                margin-top: 20%;
+        }
+        .little-post {
+          font-size: 0.7em;
         }
       }      
 
-
-      
