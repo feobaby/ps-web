@@ -16,10 +16,16 @@
 .copyy{
   margin-top: 5%;
   color: white;
+  text-align: center
+}
+
+.line1{
+  color: #666633
 }
 
 .line2{
-  margin-left: 12%
+  margin-left: 12%;
+  color: #666633
 }
 
 .text1{
@@ -69,13 +75,13 @@ hr{
 .button5 {
   background-color: transparent;
   color: whitesmoke;
-  border: 1px solid rgb(118, 118, 170);
+  border: 1px solid #666633;
 }
 
 .button6 {
   background-color: transparent;
   color: whitesmoke;
-  border: 1px solid rgb(118, 118, 170);
+  border: 1px solid #666633;
 }
 
 img {vertical-align: middle;}
